@@ -1,3 +1,3 @@
 # guess-the-number-game
 guess-the-number-game
-Mini Project, Lombok, Java Base Annotation, properties set up, SLF4J
+Mini Project, Lombok, Spring Framework, Java Base Annotation, properties set up, SLF4J
