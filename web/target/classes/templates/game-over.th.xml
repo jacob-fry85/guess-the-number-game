@@ -1,0 +1,18 @@
+<thlogic>
+    <attr sel="#headId"
+          th:replace="~{fragments/head :: headFragment}"/>
+    <attr sel="#homeId"
+          th:href="@{__${T(academy.learningprogramming.util.GameMappings).HOME}__}"
+          th:text="#{game.home}"/>
+    <attr sel="#game-over"
+          th:text="#{game.gameOver}"/>
+    <attr sel="#play-again"
+          th:text="#{game.playAgain}"/>
+    <attr sel="#result-message"
+          th:text="${__${T(academy.learningprogramming.util.AttributeNames).RESULT_MESSAGE}__}"/>
+    <attr sel="#restartId"
+          th:href="@{__${T(academy.learningprogramming.util.GameMappings).RESTART}__}"
+          th:text="#{game.play}"/>
+    <attr sel="#footerId"
+          th:replace="~{fragments/footer :: footerFragment}"/>
+</thlogic>
